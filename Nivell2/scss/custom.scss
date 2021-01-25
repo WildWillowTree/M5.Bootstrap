@@ -1,0 +1,53 @@
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+
+
+
+// Color system
+
+$white:       #000000;
+$black:       #ffffff;
+$roseBud1:    #f9a0a3;
+$roseBud2:    #fabb9b;
+$lavender:    #9c86c3;
+$studio:      #9444b4;
+$frenchLilac: #ede0f6;
+$strikemaster:#a26090;
+$sweetCorn:   #fbe188;
+$storm:       #706e8f;
+
+// scss-docs-end colors-map
+
+$primary:   $lavender;
+$secondary: $studio;
+$success:   $roseBud1;
+$info:      $roseBud2;
+$warning:   $sweetCorn;
+$danger:    $strikemaster;
+$light:     $frenchLilac;
+$dark:      $storm;
+
+// scss-docs-start colors-map
+$colors: (
+  "white": $white,
+  "black": $black
+);
+
+// scss-docs-start theme-colors-map
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+@import "../bootstrap/scss/bootstrap";
+
+
+
+
